@@ -17,7 +17,7 @@ header{
     font-size: 20px;
 }
 
-section{
+section {
     color: #000;
     display: flex;
     justify-content: flex-start;
@@ -27,9 +27,10 @@ section{
     font-family: 'Inter', sans-serif;
     border-radius: 10px;
     padding: 15px;
-    width: 400px;
+    width: 220px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 363);
+    align-items: center;
 }
 
 
@@ -38,8 +39,8 @@ section{
     border: none;
     color: #383366;
     border-radius: 2px;
-    width: 80px;
-    height: 40px;
+    width: auto;
+    height: auto;
     font-size: 17px;
     transition: 1s;
     cursor: pointer;
@@ -47,6 +48,11 @@ section{
 
 main{
     text-align: center;
+}
+
+input{
+    display: inline;
+    width: 50px;
 }
 
 #label{

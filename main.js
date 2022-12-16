@@ -1,6 +1,10 @@
+$(window).on("load", function(){
+    $(".cssload-container").delay(1000).fadeOut(500);
+});
+
 let num = document.querySelector('#txtn')
 function tabuada(){
-    let tab = document.querySelector('#seltab')
+    let tab = document.querySelector('#result')
     if(num.value.length == 0){
         window.alert('Tem que colocar um número aqui 👇')
     } else{
@@ -16,3 +20,4 @@ function tabuada(){
         }
     }
 }
+
